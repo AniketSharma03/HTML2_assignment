@@ -1,0 +1,45 @@
+1.Explain the table and its properties.
+
+Sol:In HTML, tables are used to organize and display data in rows and columns. The <table> element is the container for the entire table, and several other elements are used to define the structure of the table. Here are the key elements and properties related to HTML tables:
+<table>:This is the container element for the entire table.
+
+<tr> (Table Row):This element defines a row in the table.
+
+<th> (Table Header):This element is used to define header cells in a table 
+
+colspan and rowspan attributes:These attributes can be used in <th> and <td> elements to specify how many columns or rows a cell should span.
+
+<thead>, <tbody>, and <tfoot>:These elements are used to group the header, body, and footer content in a table, respectively.
+
+2.Explain all Media elements and how they work.
+
+Sol: Media elements are used to embed and display various types of media content, such as images, audio, and video.
+
+<img> (Image):The <img> element is used to embed images in a web page. Syntax:<img src="image.jpg" alt="Description of the image">
+
+<audio> (Audio):The <audio> element is used to embed audio files in a web page. Syntax:
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<video> (Video):The <video> element is used to embed video files in a web page.Syntax:
+<video controls width="400" height="300">
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video element.
+</video>
+
+3.What is Get and Post in Form?
+
+Sol:When a form uses the GET method, the form data is appended to the URL in the form of query parameters. This method is primarily used for requests that retrieve data without causing any side effects on the server.The data is visible in the URL, making it less secure for sensitive information.
+
+When a form uses the POST method, the form data is sent as part of the HTTP request body, not appended to the URL. This method is suitable for submitting sensitive or large amounts of data.The data is not visible in the URL, making it more secure than GET for sensitive information.
+
+4.List all the input types we have in forms.
+
+Sol:Text input,Password input,Radio Buttons,Checkboxes,File Upload,Submit button,Reset Button,Hidden input,Date input,Email input,Number input,Range input,Search input,URL input.
+
+
+
+
+
